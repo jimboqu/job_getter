@@ -28,7 +28,7 @@ class Job:
 
     def replace_job():
         Job.job_list.pop(0)
-        print (Job.job_list[0])
+        print (Job.job_list)
         return Job.job_list[0]
         #remove the first job in the list. print new job.
 
